@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeisurePlan — Sample Questions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Fraunces:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink:#2a2238; --soft:#5f5672; --bg:#fbf6ec; --paper:#fff; --line:#e6dccb; --teal:#1f6f6b; --tealSoft:#d7ece8; --gold:#b8902a; --goldSoft:#f6ebcd; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#f3ecdf; --soft:#b9afc6; --bg:#16131f; --paper:#1f1b2b; --line:#352e45; --teal:#5fbfb5; --tealSoft:#1d3735; --gold:#e2bd5a; --goldSoft:#3a3020; }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "DM Sans", -apple-system, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; padding: 40px 16px 80px; }
+    .page-header { max-width: 900px; margin: 0 auto 44px; text-align: center; }
+    .page-header h1 { font-family: Fraunces, Georgia, serif; font-size: 2.2rem; margin-bottom: 10px; }
+    .page-header p { color: var(--soft); max-width: 620px; margin: 0 auto; }
+    .section { max-width: 900px; margin: 0 auto 40px; }
+    .section-label { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .section-label .icon { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; background: var(--goldSoft); }
+    .section-label h2 { font-family: Fraunces, Georgia, serif; font-size: 1.15rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 12px; }
+    .card { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+    .card:hover { border-color: var(--teal); }
+    .tag { display: inline-block; margin-top: 12px; font-size: 0.72rem; font-weight: 600; padding: 3px 10px; border-radius: 99px; background: var(--tealSoft); color: var(--teal); }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <h1>Things people ask</h1>
+    <p>Copy any of these into the chat, or just say what's on your mind in your own words. Numbers are optional — but if you share them, we can map your money out month by month.</p>
+  </header>
+  <section class="section">
+    <div class="section-label"><span class="icon">🧾</span><h2>Budget & everyday money</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">I take home about $3,200 a month and I'm living paycheck to paycheck. How do I make a budget that actually works?</div><span class="tag">Budgeting</span></div>
+      <div class="card"><div class="query">Everything costs more lately. How do I handle groceries and rent going up on a tight budget?</div><span class="tag">Cost of living</span></div>
+      <div class="card"><div class="query">I have five buy-now-pay-later plans and a pile of subscriptions. Is that bad?</div><span class="tag">BNPL & subscriptions</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">🛡️</span><h2>Safety net</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">How big should my emergency fund be, and where should I keep it? I freelance.</div><span class="tag">Emergency fund</span></div>
+      <div class="card"><div class="query">I'm turning 26 and coming off my parents' health insurance. Do I really need my own?</div><span class="tag">Insurance</span></div>
+      <div class="card"><div class="query">I just got laid off. What should I do first with my money?</div><span class="tag">Job loss</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">🏛️</span><h2>Debt & credit</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">I owe $4,000 on two credit cards. Which should I pay off first?</div><span class="tag">Credit cards</span></div>
+      <div class="card"><div class="query">Should I refinance my federal student loans with a private lender?</div><span class="tag">Student loans</span></div>
+      <div class="card"><div class="query">I'm 23 with no credit history. How do I build my score safely?</div><span class="tag">Credit score</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">🗝️</span><h2>Home & big purchases</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">I make $62k a year. How much rent can I afford?</div><span class="tag">Rent</span></div>
+      <div class="card"><div class="query">Should I rent or buy if I might move in two years?</div><span class="tag">Rent vs buy</span></div>
+      <div class="card"><div class="query">Is a new car with a 72-month loan a bad idea if the payment is low?</div><span class="tag">Cars</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">⏳</span><h2>Future you</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">My job offers a 401(k) match up to 4%. I'm 25 — is it worth it now?</div><span class="tag">Retirement</span></div>
+      <div class="card"><div class="query">I want to invest $200 a month but I'm scared of losing it all. Where do I start?</div><span class="tag">Investing basics</span></div>
+      <div class="card"><div class="query">All my friends are into crypto and sports betting. Should I put my savings in?</div><span class="tag">Speculation</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">🎈</span><h2>Life, fun & feelings</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">Can I afford a $2,000 trip to Japan next year without wrecking my finances?</div><span class="tag">Travel & fun</span></div>
+      <div class="card"><div class="query">I feel so behind compared to everyone on Instagram. I'm 27 with $2k saved.</div><span class="tag">Money feelings</span></div>
+      <div class="card"><div class="query">My partner and I just moved in. How should we split bills when I earn more?</div><span class="tag">Relationships</span></div>
+      <div class="card"><div class="query">How should I negotiate my first salary offer?</div><span class="tag">Career & income</span></div>
+      <div class="card"><div class="query">I started freelancing on the side. Do I need to do anything for taxes?</div><span class="tag">Taxes</span></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-label"><span class="icon">📈</span><h2>Map it out month by month</h2></div>
+    <div class="cards">
+      <div class="card"><div class="query">I'm 26, born in 2000. My salary is $62,000 a year. Rent is $1,600 a month and other costs are about $1,500. I have $6,000 saved and $9,000 in a 401(k). Am I going to be okay?</div><span class="tag">Projection</span></div>
+      <div class="card"><div class="query">What happens if my rent goes up to $1,900 next year?</div><span class="tag">What if</span></div>
+      <div class="card"><div class="query">I just paid off my last credit card! 🎉</div><span class="tag">Share a win</span></div>
+    </div>
+  </section>
+</body>
+</html>

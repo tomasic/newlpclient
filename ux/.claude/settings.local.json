@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npx vite build:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(ls:*)",
+      "Bash(npm install remark-math rehype-katex katex)",
+      "Bash(find /Users/robertwoodley/code/lpclient/ux/src -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(wc:*)",
+      "Bash(gh repo *)",
+      "Bash(gh issue *)",
+      "Skill(update-config)"
+    ]
+  }
+}
